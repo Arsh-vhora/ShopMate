@@ -183,41 +183,45 @@ export default function LandingPage() {
       </div>
     </section> */}
     <section className="bg-gray-50 py-14" data-aos="fade-left">
-      <div className="container mx-auto px-4 w-[600px]">
-        <h2 className="text-3xl font-extrabold text-center text-indigo-600 mb-6">🔥 Deals of the Day</h2>
+      <div className="container mx-auto px-4 max-w-screen-md sm:max-w-full">
+        <h2 className="text-3xl font-extrabold text-center text-indigo-600 mb-6">
+          🔥 Deals of the Day
+        </h2>
+
         <Swiper
-            slidesPerView={1}
-            slidesPerGroup={1}
-            spaceBetween={20}
-            loop={true}
-            autoplay={{ delay: 3000, disableOnInteraction: false }}
-            navigation={true}
-            modules={[Autoplay, Navigation]}
-            >
-            {data.dealOfTheDayProducts.map((product) => (
-                <SwiperSlide key={product.id}>
-                <div className="relative bg-white rounded-lg overflow-hidden shadow hover:shadow-lg transition-all duration-300">
-                    <span className="absolute top-2 left-2 bg-red-500 text-white text-xs font-bold px-2 py-1 rounded z-10">
-                    {product.discount}
-                    </span>
-                    <img
-                    src={product.image}
-                    alt={product.name}
-                    className="w-full h-48 object-contain rounded mb-4"
-                    />
-                    <div className="p-4 text-center">
-                    <h4 className="text-lg font-semibold mb-1 text-gray-800">{product.name}</h4>
-                    <p className="text-indigo-600 text-xl font-bold mb-2">{product.price}</p>
-                    <button className="w-full bg-indigo-600 text-white py-2 rounded hover:bg-indigo-500 transition">
-                        Shop Now!
-                    </button>
-                    </div>
+          slidesPerView={1}
+          slidesPerGroup={1}
+          spaceBetween={20}
+          loop={true}
+          autoplay={{ delay: 3000, disableOnInteraction: false }}
+          navigation={true}
+          modules={[Autoplay, Navigation]}
+        >
+          {data.dealOfTheDayProducts.map((product) => (
+            <SwiperSlide key={product.id}>
+              <div className="relative bg-white rounded-lg overflow-hidden shadow hover:shadow-lg transition-all duration-300 mx-auto max-w-sm sm:max-w-md">
+                <span className="absolute top-2 left-2 bg-red-500 text-white text-xs font-bold px-2 py-1 rounded z-10">
+                  {product.discount}
+                </span>
+                <img
+                  src={product.image}
+                  alt={product.name}
+                  className="w-full h-48 object-contain rounded mb-4"
+                />
+                <div className="p-4 text-center">
+                  <h4 className="text-lg font-semibold mb-1 text-gray-800">{product.name}</h4>
+                  <p className="text-indigo-600 text-xl font-bold mb-2">{product.price}</p>
+                  <button className="w-full bg-indigo-600 text-white py-2 rounded hover:bg-indigo-500 transition">
+                    Shop Now!
+                  </button>
                 </div>
-                </SwiperSlide>
-            ))}
-            </Swiper>
+              </div>
+            </SwiperSlide>
+          ))}
+        </Swiper>
       </div>
     </section>
+
 
 
       {/* Why Choose Us */}
