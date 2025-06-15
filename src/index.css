@@ -1,0 +1,21 @@
+@import "tailwindcss";
+.parallax-bg {
+  background-image: url('https://images.unsplash.com/photo-1585386959984-a415522b010d?auto=format&fit=crop&w=1600&q=80');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+.animate-typing {
+  width: 0;
+  animation: typing 3s steps(30, end) forwards, blink 0.75s step-end infinite;
+}
+
+@keyframes blink {
+  50% { border-color: transparent; }
+}
+

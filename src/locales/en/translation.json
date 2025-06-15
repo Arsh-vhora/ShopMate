@@ -1,0 +1,95 @@
+{
+    "productData": {
+      "product1": {
+        "name": "Wireless Headphones",
+        "description": "Noise-cancelling wireless headphones with rich sound and long battery life.",
+        "brand": "SoundPro",
+        "specs": [
+          "Bluetooth 5.0",
+          "Over-Ear",
+          "20h Battery",
+          "Fast Charging"
+        ],
+        "reviews": [
+          {
+            "user": "Amit",
+            "comment": "Excellent sound and battery life."
+          },
+          {
+            "user": "Sara",
+            "comment": "Good but a bit tight on ears."
+          }
+        ]
+      },
+      "product2": {
+        "name": "Smart Watch X2",
+        "description": "Fitness smart watch with heart-rate monitor, GPS, and water resistance.",
+        "brand": "FitZone",
+        "specs": [
+          "Heart Rate Monitor",
+          "GPS",
+          "Waterproof",
+          "Sleep Tracking"
+        ],
+        "reviews": [
+          {
+            "user": "John",
+            "comment": "Very accurate and stylish."
+          }
+        ]
+      },
+      "product3": {
+        "name": "Casual Sneakers",
+        "description": "Comfortable sneakers perfect for everyday wear.",
+        "brand": "WalkPro",
+        "specs": [
+          "Breathable Fabric",
+          "Foam Insole",
+          "Anti-Slip Sole"
+        ],
+        "reviews": [
+          {
+            "user": "Dev",
+            "comment": "Really comfortable and stylish."
+          },
+          {
+            "user": "Riya",
+            "comment": "Great value for money."
+          }
+        ]
+      },
+      "product4": {
+        "name": "LED Monitor 24\"",
+        "description": "Full HD monitor with vibrant colors and slim design.",
+        "brand": "ViewTech",
+        "specs": [
+          "1080p",
+          "HDMI & VGA",
+          "75Hz",
+          "Anti-Glare"
+        ],
+        "reviews": [
+          {
+            "user": "Nina",
+            "comment": "Great display, but out of stock."
+          }
+        ]
+      },
+      "product5": {
+        "name": "Men’s Denim Jacket",
+        "description": "Classic denim jacket for a casual and rugged look.",
+        "brand": "UrbanEdge",
+        "specs": [
+          "100% Cotton",
+          "Button Closure",
+          "Machine Washable"
+        ],
+        "reviews": [
+          {
+            "user": "Ravi",
+            "comment": "Looks great and fits perfectly."
+          }
+        ]
+      }
+    }
+  }

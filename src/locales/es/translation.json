@@ -1,0 +1,95 @@
+{
+    "productData": {
+      "product1": {
+        "name": "Auriculares inalámbricos",
+        "description": "Auriculares inalámbricos con cancelación de ruido, sonido rico y batería duradera.",
+        "brand": "SoundPro",
+        "specs": [
+          "Bluetooth 5.0",
+          "Sobre la oreja",
+          "20h de batería",
+          "Carga rápida"
+        ],
+        "reviews": [
+          {
+            "user": "Amit",
+            "comment": "Excelente sonido y duración de la batería."
+          },
+          {
+            "user": "Sara",
+            "comment": "Buenos pero algo ajustados."
+          }
+        ]
+      },
+      "product2": {
+        "name": "Smart Watch X2",
+        "description": "Reloj inteligente con monitor de frecuencia cardíaca, GPS y resistencia al agua.",
+        "brand": "FitZone",
+        "specs": [
+          "Monitor cardíaco",
+          "GPS",
+          "Resistente al agua",
+          "Seguimiento del sueño"
+        ],
+        "reviews": [
+          {
+            "user": "John",
+            "comment": "Muy preciso y elegante."
+          }
+        ]
+      },
+      "product3": {
+        "name": "Zapatillas casuales",
+        "description": "Zapatillas cómodas perfectas para el uso diario.",
+        "brand": "WalkPro",
+        "specs": [
+          "Tela transpirable",
+          "Plantilla de espuma",
+          "Suela antideslizante"
+        ],
+        "reviews": [
+          {
+            "user": "Dev",
+            "comment": "Muy cómodas y con estilo."
+          },
+          {
+            "user": "Riya",
+            "comment": "Excelente relación calidad-precio."
+          }
+        ]
+      },
+      "product4": {
+        "name": "Monitor LED 24\"",
+        "description": "Monitor Full HD con colores vivos y diseño delgado.",
+        "brand": "ViewTech",
+        "specs": [
+          "1080p",
+          "HDMI y VGA",
+          "75Hz",
+          "Antirreflejo"
+        ],
+        "reviews": [
+          {
+            "user": "Nina",
+            "comment": "Buena imagen, pero no disponible."
+          }
+        ]
+      },
+      "product5": {
+        "name": "Chaqueta vaquera para hombre",
+        "description": "Chaqueta vaquera clásica para un look casual y resistente.",
+        "brand": "UrbanEdge",
+        "specs": [
+          "100% Algodón",
+          "Cierre de botones",
+          "Lavable a máquina"
+        ],
+        "reviews": [
+          {
+            "user": "Ravi",
+            "comment": "Se ve genial y queda perfecta."
+          }
+        ]
+      }
+    }
+  }

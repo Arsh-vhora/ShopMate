@@ -1,0 +1,95 @@
+{
+    "productData": {
+      "product1": {
+        "name": "Casque sans fil",
+        "description": "Casque sans fil à réduction de bruit avec un son riche et une longue autonomie.",
+        "brand": "SoundPro",
+        "specs": [
+          "Bluetooth 5.0",
+          "Sur l’oreille",
+          "20h de batterie",
+          "Charge rapide"
+        ],
+        "reviews": [
+          {
+            "user": "Amit",
+            "comment": "Excellente qualité sonore et bonne autonomie."
+          },
+          {
+            "user": "Sara",
+            "comment": "Bon mais un peu serré aux oreilles."
+          }
+        ]
+      },
+      "product2": {
+        "name": "Montre Connectée X2",
+        "description": "Montre de fitness avec moniteur de fréquence cardiaque, GPS et résistance à l’eau.",
+        "brand": "FitZone",
+        "specs": [
+          "Fréquence cardiaque",
+          "GPS",
+          "Étanche",
+          "Suivi du sommeil"
+        ],
+        "reviews": [
+          {
+            "user": "John",
+            "comment": "Très précise et élégante."
+          }
+        ]
+      },
+      "product3": {
+        "name": "Baskets décontractées",
+        "description": "Baskets confortables idéales pour un usage quotidien.",
+        "brand": "WalkPro",
+        "specs": [
+          "Tissu respirant",
+          "Semelle en mousse",
+          "Semelle antidérapante"
+        ],
+        "reviews": [
+          {
+            "user": "Dev",
+            "comment": "Vraiment confortables et élégantes."
+          },
+          {
+            "user": "Riya",
+            "comment": "Excellent rapport qualité-prix."
+          }
+        ]
+      },
+      "product4": {
+        "name": "Écran LED 24\"",
+        "description": "Écran Full HD avec couleurs vives et design fin.",
+        "brand": "ViewTech",
+        "specs": [
+          "1080p",
+          "HDMI & VGA",
+          "75Hz",
+          "Anti-reflets"
+        ],
+        "reviews": [
+          {
+            "user": "Nina",
+            "comment": "Très bon affichage, mais en rupture de stock."
+          }
+        ]
+      },
+      "product5": {
+        "name": "Veste en jean pour homme",
+        "description": "Veste en jean classique pour un look décontracté et robuste.",
+        "brand": "UrbanEdge",
+        "specs": [
+          "100% Coton",
+          "Fermeture à boutons",
+          "Lavable en machine"
+        ],
+        "reviews": [
+          {
+            "user": "Ravi",
+            "comment": "Très belle et taille parfaite."
+          }
+        ]
+      }
+    }
+  }
